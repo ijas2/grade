@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Tangerine:700">
+
+<style>
+
+h1{
+    vertical-align: middle;
+    text-align :center;
+    color: #ffffff;
+    font-family: 'Tangerine';
+    font-size:  80px;
+   
+}
+
+h3{
+    vertical-align: middle;
+    text-align :center;
+    color: #ffffff;
+    font-family: 'Tangerine';
+    font-size:  50px;
+   
+}
+
+body, html {
+    
+    margin: 0;
+    background-color: #00000c;
+}
+
+
+/* Full-width input fields */
+input[type=text], input[type=password] {
+    width: 100%;
+    padding: 15px;
+    margin: 5px 0 15px 0;
+    border: none;
+    background: #f1f1f1;
+}
+
+input[type=text]:focus, input[type=password]:focus {
+    background-color: #ddd;
+    outline: none;
+}
+
+/* Set a style for the submit button */
+.btn {
+    background-color: #1d1e22;
+    color: white;
+    padding: 16px 16px;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+    opacity: 0.7;
+}
+
+.btn:hover {
+    opacity: 1;
+}
+
+.centered {
+    position: absolute;
+    top: 60%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 16px;
+    font-family: sans-serif;
+}
+</style>
+</head>
+<body>
+    <div>
+        <div>
+             <h1> GRADE IT </h1>
+        </div>
+        <div>
+            <h3> KTU Activity Point Management System </h3>
+        </div>
+             
+    </div>
+
+
+  <form action="/action_page.php" class="centered">
+
+    <input type="text" id="uid" name="UID" placeholder="UID">
+    <br>
+    
+    <input type="password" id="pass" name="Password" placeholder="Password">
+    <br>
+    <br>
+    
+    <button type="submit" class="btn">Login</button>
+  </form>
+
+</div>
+</div>
+
+
+
+
+
+
+</body>
+</html>
